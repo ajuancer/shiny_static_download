@@ -1,0 +1,10 @@
+name: shinyapp_test
+title:
+username:
+account: juancer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3426828
+bundleId: 4025703
+url: https://juancer.shinyapps.io/shinyapp_test/
+when: 1608814311.43664
