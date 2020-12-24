@@ -16,7 +16,7 @@ fluidPage(
     div(p(HTML(paste0('The used database belongs to the REMEDHUS network, part of the ', a(href = 'https://ismn.geo.tuwien.ac.at/en/', 'ISMN'), '. This infrastructure is maintained by the ', a(href = 'http://campus.usal.es/~hidrus/index.htm', 'Water Resources Research Group of the University of Salamanca'),'.')))),
 
     h3('Downloads tests'),
-    div(p(HTML(paste0('The below button allows the download of the database through the ', a(href = 'https://shiny.rstudio.com/reference/shiny/1.0.4/downloadHandler.html', 'downloadHandler'), ' function. This same file is stored in ', a(href='/export/test_02.csv', '/export/test_02.csv'), '.', strong(' Please wait until the graph is loaded'), '.')))),
+    div(p(HTML(paste0('The below button allows the download of the database through the ', a(href = 'https://shiny.rstudio.com/reference/shiny/1.0.4/downloadHandler.html', 'downloadHandler'), ' function. This same file is stored in ', a(href='export/test_02.csv', 'export/test_02.csv'), '.', strong(' Please wait until the graph is loaded'), '.')))),
     downloadButton("downloadData", "Download")
   ),
 
