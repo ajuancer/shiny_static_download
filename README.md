@@ -36,7 +36,7 @@ $ runGitHub("shiny_static_download", "ajuancer")
 
 ## Contributions.
 
-Any kind of suggestion, questions and any contribution is open. Feel free to fork/open issue/whatever. Clone this repository with `git clone https://github.com/ajauncer/shiny_static_download`.
+Any kind of suggestion, questions and any contribution is open. Feel free to fork/open issue/whatever. Clone this repository with `git clone https://github.com/ajuancer/shiny_static_download`.
 
 ## License.
 
