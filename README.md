@@ -23,7 +23,7 @@ Which will let users access the files of `specific_directory_with_files`.
 
 ## Problems with [shinyapps.io](https://www.shinyapps.io/).
 
-One factor to keep in mind is that, although the path is always the same, with the free plan of *shinyapps.io*, the server is not always running. This means that, each time the app is launched, the file which establish the static file, in this case [`server.R`](server.R), needs to be executed in order to achieve the two previous described goals. Once this is done, and until the server is shut down for inactivity, the static paths will work.
+One factor to keep in mind is that, although the path is always the same, with the free plan of *shinyapps.io*, the server is not always running. This means that, each time the app is launched, the file which establish the static file, in this case [`server.R`](server.R), needs to be executed to achieve the two previously-described goals. Once this is done (and until the server is shut down for inactivity) the static paths will work.
 
 ## Example.
 
@@ -40,4 +40,4 @@ Any kind of suggestion, questions and any contribution is open. Feel free to for
 
 ## License.
 
-MIT license. 
+[MIT license](LICENSE.md). 
